@@ -18,7 +18,7 @@ function loadRates() {
                 console.log(rates);
                 var rettes = JSON.stringify(rates);
                 console.log(rettes);
-                alert(rettes.ccy);
+                alert(rettes[1].ccy);
 
             } catch (e) {
                 alert("Некорректный ответ " + e.message);
